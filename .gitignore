@@ -6,3 +6,4 @@ target
 *~
 .checkstyle
 *.wav
+passfile
