@@ -23,4 +23,24 @@
     </dependency>
   </dependencies>
 
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.codehaus.mojo</groupId>
+	<artifactId>exec-maven-plugin</artifactId>
+	<version>1.2</version>
+	<executions>
+	  <execution>
+	    <goals>
+	      <goal>exec</goal>
+	    </goals>
+	  </execution>
+	</executions>
+	<configuration>
+	  <mainClass>uk.ac.shef.dcs.oak.pim.Extractor</mainClass>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
